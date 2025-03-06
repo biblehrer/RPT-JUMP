@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Bib-2D-Jump.sln"
+    "dotnet.defaultSolution": "RPT-JUMP.sln"
 }
