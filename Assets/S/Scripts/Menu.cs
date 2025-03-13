@@ -8,7 +8,7 @@ public class Menu : MonoBehaviour
     public void NewGame()
     {
         // Reset Save-Files
-        SceneManager.LoadScene("LoadingScreen");
+        SceneManager.LoadScene("LoadGame");
     }
 
     public void LoadGame()

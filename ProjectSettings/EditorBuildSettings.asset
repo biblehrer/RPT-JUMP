@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Example/Example.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/S/Scene/Level_S.unity
+    guid: c00c0e7a75c7d324da314c66e20f7e07
+  - enabled: 1
+    path: Assets/S/Scene/Menu.unity
+    guid: 5ff8bf745460b9f44a3b5399d1dba99a
+  - enabled: 1
+    path: Assets/S/Scene/RPG/Level-1.unity
+    guid: 811825135dbab954dba12831dcc61acc
+  - enabled: 1
+    path: Assets/S/Scene/RPG/LoadGame.unity
+    guid: 44a6c4195cd04ac4c9921d8eb1e1f629
+  - enabled: 1
+    path: Assets/S/Scene/RPG/Shop.unity
+    guid: 569635358c790d14594cb7c3dbe7135b
+  - enabled: 1
+    path: Assets/S/Scene/RPG/StartGame-0.unity
+    guid: a1459c4d30df62d4eb7829aab72a47ad
   m_configObjects: {}

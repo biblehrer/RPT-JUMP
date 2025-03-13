@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Player_RPG : MonoBehaviour
@@ -45,6 +47,11 @@ public class Player_RPG : MonoBehaviour
 
     void Update()
     {
+        if (GameObject.FindGameObjectsWithTag("Player").Length > 1)
+        {
+            Destroy(gameObject);
+        }
+
         health = GetComponent<Health>().health;
         maxHealth = GetComponent<Health>().maxHealth;
         PlayerHealthBarDisplay();
@@ -63,7 +70,7 @@ public class Player_RPG : MonoBehaviour
             return;
         }
 
-        if (!PlayerMoving)
+        if (!PlayerMoving && SceneManager.GetActiveScene().name != "StartGame-0")
         {
             return;
         }
