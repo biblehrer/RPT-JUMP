@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - World
+  - Penguin
+  - Coin
+  - Breakablelce
   layers:
   - Default
   - TransparentFX

@@ -326,6 +326,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IceBlock 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6908386889629793144, guid: 966de0a45a0a76a46b73cc6dc6ecf40f, type: 3}
+      propertyPath: m_TagString
+      value: Breakablelce
+      objectReference: {fileID: 0}
     - target: {fileID: 8197558865209086319, guid: 966de0a45a0a76a46b73cc6dc6ecf40f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.96
@@ -10830,6 +10834,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: IceBlock 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6908386889629793144, guid: 966de0a45a0a76a46b73cc6dc6ecf40f, type: 3}
+      propertyPath: m_TagString
+      value: Breakablelce
+      objectReference: {fileID: 0}
     - target: {fileID: 7715026625160568218, guid: 966de0a45a0a76a46b73cc6dc6ecf40f, type: 3}
       propertyPath: iceBreakEffect
       value: 
@@ -10890,18 +10898,6 @@ PrefabInstance:
     - target: {fileID: 6908386889629793144, guid: 803ebf830234a1c45868dfc6c82a5f8a, type: 3}
       propertyPath: m_Name
       value: IceBlock (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6908386889629793144, guid: 803ebf830234a1c45868dfc6c82a5f8a, type: 3}
-      propertyPath: m_TagString
-      value: Breakablelce
-      objectReference: {fileID: 0}
-    - target: {fileID: 8197558865209086319, guid: 803ebf830234a1c45868dfc6c82a5f8a, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.2803761
-      objectReference: {fileID: 0}
-    - target: {fileID: 8197558865209086319, guid: 803ebf830234a1c45868dfc6c82a5f8a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0598
       objectReference: {fileID: 0}
     - target: {fileID: 8197558865209086319, guid: 803ebf830234a1c45868dfc6c82a5f8a, type: 3}
       propertyPath: m_LocalPosition.x
